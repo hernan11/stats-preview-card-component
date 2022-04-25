@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Stats Preview Card Component</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <article class="card">
+        <header class="card__header">
+          <img
+            src="./assets/images/image-header-mobile.jpg"
+            alt="Image Header"
+            srcset="
+              ./assets/images/image-header-mobile.jpg  654w,
+              ./assets/images/image-header-desktop.jpg 540w
+            "
+            sizes="(min-width: 800px) 540px, 654px"
+          />
+        </header>
+        <div class="card__body">
+          <div class="card__title text-white">
+            <h1>
+              Get <span class="text-violet">insights</span> that help your
+              business grow.
+            </h1>
+          </div>
+          <div class="card__description">
+            <p class="text-transparent-white">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+          <ul class="card__stats">
+            <li class="card__stat text-white">
+              10k+
+              <span class="text-transparent-white">companies</span>
+            </li>
+            <li class="card__stat text-white">
+              314
+              <span class="text-transparent-white">templates</span>
+            </li>
+            <li class="card__stat text-white">
+              12M+
+              <span class="text-transparent-white">queries</span>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
