@@ -5,4 +5,5 @@ Frontend Mentor Challenge
 
 My Solution: https://hernan11.github.io/stats-preview-card-component/
 
-![desktop-design](https://user-images.githubusercontent.com/26915529/165110769-70b985a8-26c4-4451-becd-ccfa21d2e7e2.jpg)
+![desktop-preview](https://user-images.githubusercontent.com/26915529/165111141-b0196d2e-1b61-4caf-9e3b-dd02cf906e5c.jpg)
+
